@@ -8,7 +8,7 @@ import Shop from "./Pages/Shop.jsx";
 import ShopCategory from "./Pages/ShopCategory.jsx";
 import Product from "./Pages/Product.jsx";
 import Cart from "./Pages/Cart.jsx";
-import LoginSignup from "./Pages/LoginSignup.jsx";
+
 import Footer from "./Components/Footer/Footer.jsx"
 import ShopContextProvider from './Context/ShopContext.jsx';
 import men_banner from "./Components/Assets/banner_mens.png";
@@ -47,10 +47,6 @@ const router = createBrowserRouter([
 {
   path: "/cart",
   element: <Cart/>
-},
-{
-  path: "/login",
-  element: <LoginSignup/>
 }
 ]
   },

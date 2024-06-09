@@ -88,3 +88,38 @@ font-weight: 600;
 .productdisplay-right-category span{
     font-weight: 600;
 }
+@media (min-width:360px) and (max-width:935px){
+
+    .productdisplay{
+        flex-direction: column;
+        margin: auto;
+    }
+    .productdisplay-left{
+        flex-direction: column-reverse;
+    }
+    .productdisplay-img-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: auto;
+    }
+    .productdisplay-img-list img{
+        object-fit: cover;
+    }
+    .productdisplay-main-img{
+        width: 100%;
+    }
+    .productdisplay-right h1{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    .productdisplay-right-sizes{
+        flex-direction: column;
+        margin: 0;
+    }
+    .productdisplay-right button{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+}

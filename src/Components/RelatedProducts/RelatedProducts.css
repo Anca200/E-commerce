@@ -22,3 +22,15 @@
     display: flex;
     gap: 30px;
 }
+@media (min-width:360px) and (max-width:935px){
+    .relatedproducts{
+        margin: 0;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .relatedproducts-item{
+        flex-direction: column;
+    }
+}
