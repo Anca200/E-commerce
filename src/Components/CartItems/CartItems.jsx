@@ -22,7 +22,7 @@ const CartItems = () => {
             return    <div>
             <div className="cartitems-format cartitems-format-main">
                 <img  src={e.image} alt="" className='carticon-product-icon'/>
-                <p>{e.name}</p>
+                <p id="shop-name">{e.name}</p>
                 <p>${e.new_price}</p>
                 <button className='cartitems-quantity'>
                     {cartItems[e.id]}

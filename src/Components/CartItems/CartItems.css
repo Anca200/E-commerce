@@ -93,3 +93,9 @@ margin: 50px;
     color: white;
     cursor: pointer ;
 }
+@media (min-width:360px) and (max-width:935px){
+    .cartitems{
+        margin: auto;
+        padding: 10px;
+    }
+}
