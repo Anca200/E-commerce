@@ -54,3 +54,13 @@
     height: 3px;
     background: #c7c7c7;
 }
+@media (min-width:360px) and (max-width:935px){
+    .footer{
+       width: 100%;
+       height: auto;
+       text-align: center;
+    }
+    .footer-links {
+        flex-direction: column;
+    }
+}

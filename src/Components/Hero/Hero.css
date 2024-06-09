@@ -55,3 +55,26 @@
 .hero-right img{
     width: 500px;
 }
+
+@media (min-width:360px) and (max-width:935px){
+    .hero{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .hero-left{
+padding: 0;
+text-align: center;
+align-items: center;
+    }
+    .hero-left p{
+ font-size: 2.2rem;
+text-align: center;
+    }
+    .hero-hand-icon img{
+        width: 50px;
+    }
+    .hero-right img{
+        width: 90%;
+    }
+}

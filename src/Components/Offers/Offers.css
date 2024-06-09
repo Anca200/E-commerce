@@ -42,3 +42,12 @@
     justify-content: flex-end;
     padding-top: 50px;
 }
+@media (min-width:360px) and (max-width:935px){
+    .offers{
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+    }
+}

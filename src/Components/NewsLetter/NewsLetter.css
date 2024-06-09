@@ -49,3 +49,21 @@
     font-size: 16px;
      cursor: pointer;
 }
+@media (min-width:360px) and (max-width:935px){
+   .newsletter{
+    width: 100%;
+    height: auto;
+    text-align: center;
+   }
+   .newsletter div{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+   }
+   .newsletter input{
+   width: 100%;
+   margin: auto;
+   padding: 20px;
+   margin-bottom: 10px;
+}
+}

@@ -21,3 +21,14 @@ background: #252525;
     display: flex;
     gap: 30px;
 }
+
+@media (min-width:360px) and (max-width:935px){
+    .popular{
+      height: auto;
+      align-items: center;
+      text-align: center;
+    }
+    .popular-item{
+        flex-direction: column;
+    }
+}
